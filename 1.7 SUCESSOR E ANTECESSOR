@@ -1,0 +1,19 @@
+/******************************************************************************
+7. Sucessor e Antecessor: Leia um número inteiro e imprima o número que vem antes e o que vem depois dele.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+
+{
+    int num;
+    
+    printf("digite um numero");
+    scanf("%i", &num);
+    
+    
+    printf("%i %i %i", num-1, num, num+1);
+
+    return 0;
+}
